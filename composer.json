@@ -1,0 +1,54 @@
+{
+    "name": "render-labs/renegade",
+    "description": "Renegade provides a lightweight CMS for Laravel to be deployed Vapor",
+    "keywords": [
+        "render-labs",
+        "renegade"
+    ],
+    "homepage": "https://github.com/render-labs/renegade",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sam Newby",
+            "email": "sam@renderlabs.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RenderLabs\\Renegade\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RenderLabs\\Renegade\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RenderLabs\\Renegade\\RenegadeServiceProvider"
+            ],
+            "aliases": {
+                "Renegade": "RenderLabs\\Renegade\\RenegadeFacade"
+            }
+        }
+    }
+}
