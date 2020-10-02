@@ -1,11 +1,13 @@
-# Very short description of the package
+# Lightweight headless CMS package for Laravel apps
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/render-labs/renegade.svg?style=flat-square)](https://packagist.org/packages/render-labs/renegade)
 [![Build Status](https://img.shields.io/travis/render-labs/renegade/master.svg?style=flat-square)](https://travis-ci.org/render-labs/renegade)
 [![Quality Score](https://img.shields.io/scrutinizer/g/render-labs/renegade.svg?style=flat-square)](https://scrutinizer-ci.com/g/render-labs/renegade)
 [![Total Downloads](https://img.shields.io/packagist/dt/render-labs/renegade.svg?style=flat-square)](https://packagist.org/packages/render-labs/renegade)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Renegade is designed to be added to Laravel applications to add a headless CMS to them apps.
+
+### README is incomplete, still needs more work.
 
 ## Installation
 
@@ -17,13 +19,13 @@ composer require render-labs/renegade
 
 ## Usage
 
-``` php
+```php
 // Usage description here
 ```
 
 ### Testing
 
-``` bash
+```bash
 composer test
 ```
 
@@ -41,8 +43,8 @@ If you discover any security related issues, please email sam@renderlabs.io inst
 
 ## Credits
 
-- [Sam Newby](https://github.com/render-labs)
-- [All Contributors](../../contributors)
+-   [Sam Newby](https://github.com/render-labs)
+-   [All Contributors](../../contributors)
 
 ## License
 
