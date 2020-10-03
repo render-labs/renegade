@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use RenderLabs\Renegade\Http\Renegade\PostController;
-use RenderLabs\Renegade\Http\Renegade\DashboardController;
+use App\Http\Renegade\PostController;
+use App\Http\Renegade\DashboardController;
 
 Route::get('/dasboard', [DashboardController::class, 'index'])->name('dashboard.index');
 

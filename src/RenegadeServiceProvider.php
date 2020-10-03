@@ -53,10 +53,10 @@ class RenegadeServiceProvider extends ServiceProvider
             unlink(bash_path('routes/') . 'api.php');
 
             $this->publishes([
-                __DIR__ . '/../routes/web.php' => base_path('routes/web.php')
+                __DIR__ . '/../routes/web.php' => bash_path('routes/') . 'web.php'
             ]);
             $this->publishes([
-                __DIR__ . '/../routes/api.php' => base_path('routes/api.php')
+                __DIR__ . '/../routes/api.php' => bash_path('routes/') . 'api.php'
             ]);
 
             // Publishing the views.
